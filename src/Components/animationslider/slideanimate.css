@@ -1,0 +1,98 @@
+.reviwes{
+    background-color: thistle;
+    
+}
+.review-title{
+text-align: center;
+font-weight: 700;
+position: relative;
+padding: 10px 5px 10px 30px;
+margin: 25px 0 50px;
+}
+.review-title:before{
+    content: "";
+    position: absolute;
+    height: 34px;
+    width: 5px;
+    transform: rotate(20deg);
+    background-color: #e62c0b;
+    left: 3px;
+    top: 18px;
+    border-radius: 3px;
+}
+.Slides{
+    display: flex;
+    width: 60%;
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+.Slides section{
+padding: 5px;
+border-radius: 5px;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: all .5s ease-in-out;
+}
+
+.Slides section img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+    object-fit: cover;
+    border: 4ps solid #EEE;
+    box-shadow: 0 0 5px 6px #8a8989;
+    
+}
+.Slides section h4{
+    margin: 15px 0 5px;
+    color: rgb(230, 44, 11);
+}
+.Slides section span{
+    margin-bottom: 10px;
+}
+.Slides section  p{
+    margin: 15px auto;
+    width: 70%;
+    padding: 5px 10px;
+}
+.Slides  button{
+    position: absolute;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    background-color:rgb(230, 44, 11);
+    color: #fff;
+    padding: 7px;
+   line-height: 12px;
+   font-size: 15px;
+   outline: none;
+}
+.Slides  button:first-of-type{
+left: 0;
+top: 50%;
+width: max-content;
+}
+.Slides  button:last-of-type{
+right: 0;
+top: 50%;
+height: max-content;
+}
+.Slides section.activeSlide{
+    opacity: 1;
+    transform: translateX(0);
+}
+.Slides section.nextSlide{
+    opacity: 0;
+    transform: translateX(100%);
+}
+.Slides section.lastSlide{
+    opacity: 0;
+    transform: translateX(-100%);
+}
+

@@ -1,0 +1,56 @@
+.Toggle{
+    background-color: tomato;
+}
+.Toggle-content{
+    width: 60%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 3px 3px #fdfafa;
+    display: flex;
+    margin: 20px auto;
+}
+.Toggle-content .cardes-content{
+    flex-grow: 2;
+    padding: 5px 10px;
+}
+.Toggle-content h2{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 15px 10px;
+    color: tomato;
+}
+.Toggle-content .cardes-content .cards{
+    padding: 10px;
+    box-shadow: 0 0 6px 1px #c4c3c3;
+    margin: 25px 0;
+    position: relative;
+    height: 46px;
+    overflow: hidden;
+    transition:all .5s ease-in-out;
+
+}
+.Toggle-content .cardes-content .cards.active{
+    height: 140px;
+    
+}
+.Toggle-content .cardes-content .cards h3{
+    margin-bottom: 5px;
+}
+.Toggle-content .cardes-content .cards p{
+    padding: 5px 0px;
+    transition:all .5s ease-in-out;
+
+}
+.cards button{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 1px 5px;
+    background: transparent;
+    color: tomato;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+
+}

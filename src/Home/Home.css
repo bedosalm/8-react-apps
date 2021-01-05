@@ -1,0 +1,50 @@
+
+.main-Content{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.app-Content{
+    color: rgb(40, 140, 187);
+    transition: all .5s ease-in-out;
+    border: 1px solid #e5dada;
+}
+.main-Title{
+    text-align: center;
+    padding: 18px;
+    border-bottom: 3px solid rgb(40, 140, 187);
+    width: max-content;
+    margin :10px auto 30px ;
+}
+      
+.link-active{
+    text-decoration: none;
+    font-size: 22px;
+    width: 33.33%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 0 15px;
+}
+.app-Content h3{
+    padding: 8px 3px;
+    font-size: 18px;
+}
+.app-Content .img-content{
+    width: 100%;
+    height: 188px;
+}
+.app-Content .img-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.app-Content:hover{
+    box-shadow: 0 0 5px 3px #ccc;
+}
+@media only screen and (max-width : 800px) {
+    .link-active{
+        width: 50%;
+    }
+}

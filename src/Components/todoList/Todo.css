@@ -1,0 +1,90 @@
+.Todo{
+    background-color: #5266f9;
+}
+.Todo-Content{
+    margin: 20px auto;
+    width: 40%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    height: auto;
+    padding: 0px 10px 10px;
+}
+.Todo-Content input{
+  width: 70%;
+  padding: 5px;
+  height: 25px;
+  border-radius: 3px;
+  margin: 20px 20px;
+  border:1px solid #ccc;
+  outline: none;
+}
+.Todo-Content .Add{
+    padding: 5px 28px;
+    outline: none;
+    border: none;
+    background-color: #1ab2d4;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.Todo-Content .item-Content{
+  
+    display: flex;
+    padding: 0 23px;
+    margin: 10px 0;
+
+}
+.Todo-Content .item-Content p{
+    flex-grow: 1;
+}
+.Todo-Content .item-Content button{
+    margin: 0 5px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+.Todo-Content .item-Content button:first-of-type{
+color: #1dd41a;
+}
+.Todo-Content .item-Content button:last-of-type{
+color: red;
+}
+
+.Alert{
+    text-align: center;
+    padding: 5px 10px;
+    line-height: 16px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.btn-clear{
+    padding: 5px 28px;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    border: 1px solid red;
+    color: red;
+    border-radius: 4px;
+    margin: 18px auto 10px;
+    display: block;
+}
+
+.danger{
+    color: #fff;
+    background-color: red;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+.success{
+    color: #fff;
+    background-color:#1dd41a;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.alert-content{
+    padding: 10px;
+    height: 40px;
+}

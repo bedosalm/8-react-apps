@@ -1,0 +1,91 @@
+.center{
+    text-align: center;
+}
+main{
+    background-color: #fff;
+}
+.Tabs{
+    width: 80%;
+    /* background-color: #fff;*/
+    height: 450px; 
+    position: relative;
+    margin: auto;
+    border-radius: 8px;
+    padding: 15px 20px;
+    display: flex;
+}
+
+.title{
+    border-bottom: 5px solid #4aff8a !important;
+}
+
+.Tabs section{
+padding: 10px;
+width: 80%;
+}
+.Tabs section h2{
+    margin-bottom: 10px;
+}
+.Tabs section span:first-of-type{
+    margin-bottom: 10px;
+    display: block;
+    color: #4aff8a;
+    width: max-content;
+    padding: 5px;
+    background-color: #a386861f;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.Tabs section span:last-of-type{
+    margin-bottom: 18px;
+    display: block;
+    color:#9f9494
+}
+.Tabs section p{
+    margin: 10px 0;
+    position: relative;
+    padding-left: 40px;
+}
+.Tabs section p .duti-icon{
+position: absolute;
+top: 10px;
+left: 0px;
+color: #4aff8a;
+font-size: 12px;
+}
+.Tabs .jops-List{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 15px;
+    flex-basis: 20%;
+}
+.Tabs .jops-List button{
+    border: none;
+    outline: none;
+    padding: 8px 30px;
+    margin-bottom: 10px;
+    background-color: inherit;
+    font-weight: 800;
+}
+
+.activate{
+    color: #4aff8a;
+    border-left: 1px solid #4aff8a !important;
+}
+
+@media only screen and (max-width:700px){
+    .Tabs{
+        flex-direction: column;
+        width: 100%;
+    }
+    .Tabs .jops-List{
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .Tabs section{
+        width: 100%;
+
+    }
+}
